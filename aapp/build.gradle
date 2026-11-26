@@ -8,14 +8,14 @@ android {
 
     defaultConfig {
         applicationId "com.texteditor.app"
-        minSdk 24
+        minSdk 21
         targetSdk 34
         versionCode 1
         versionName "1.0"
     }
 
     buildTypes {
-        release {
+        debug {
             minifyEnabled false
         }
     }
@@ -27,4 +27,5 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 }
